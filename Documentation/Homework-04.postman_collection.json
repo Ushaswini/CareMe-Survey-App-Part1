@@ -1,0 +1,360 @@
+{
+	"id": "62f6bba9-1ce9-e8de-34fc-a479f963dba3",
+	"name": "Homework-04",
+	"description": "",
+	"order": [
+		"c219f98b-4b65-86d9-8ba4-238d5a498898",
+		"02e98fb2-b634-3b6c-07a8-8e6af6541411",
+		"ef1c9ebc-fc24-bb7c-2330-f52c29acddf3",
+		"9483bb4d-7fd8-7e34-b434-69fd4e51676b",
+		"ea9d73ee-04ac-4f98-5159-1941db36cbce",
+		"6accd22a-ee9c-cda4-b94b-15f1a10d5a7c",
+		"c55c6981-90ec-d94a-58ae-6682e3a242c4",
+		"c1d0315d-7fb4-cf3b-5bf8-fb0fa9362ec1"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1510064344409,
+	"owner": "1794861",
+	"public": false,
+	"requests": [
+		{
+			"id": "02e98fb2-b634-3b6c-07a8-8e6af6541411",
+			"headers": "Content-Type: application/x-www-form-urlencoded\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1bmlxdWVfbmFtZSI6IjA0Zjc0MDdhLTJkY2YtNGRjMC1iZjc2LTIxMjlkNjgwOWU2ZSIsInN1YiI6IkFkbWluIiwicm9sZSI6IkFkbWluIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAwLyIsImF1ZCI6IjQxNGUxOTI3YTM4ODRmNjhhYmM3OWY3MjgzODM3ZmQxIiwiZXhwIjoxNTEwMzMwMDUxLCJuYmYiOjE1MTAyNDM2NTF9.A8xS3QdyE17IEup9Gs9w14xOsxUURoPPnGWlsedcXcM\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1bmlxdWVfbmFtZSI6IjA0Zjc0MDdhLTJkY2YtNGRjMC1iZjc2LTIxMjlkNjgwOWU2ZSIsInN1YiI6IkFkbWluIiwicm9sZSI6IkFkbWluIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAwLyIsImF1ZCI6IjQxNGUxOTI3YTM4ODRmNjhhYmM3OWY3MjgzODM3ZmQxIiwiZXhwIjoxNTEwMzMwMDUxLCJuYmYiOjE1MTAyNDM2NTF9.A8xS3QdyE17IEup9Gs9w14xOsxUURoPPnGWlsedcXcM",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://caremesurvey.azurewebsites.net/api/Account/AddUser",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "username",
+					"value": "User5",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "User5@6010",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "email",
+					"value": "user5@gmail.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "StudyGroupId",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1510272264915,
+			"name": "AddUser",
+			"description": "",
+			"collectionId": "62f6bba9-1ce9-e8de-34fc-a479f963dba3",
+			"responses": []
+		},
+		{
+			"id": "6accd22a-ee9c-cda4-b94b-15f1a10d5a7c",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1bmlxdWVfbmFtZSI6IjA0Zjc0MDdhLTJkY2YtNGRjMC1iZjc2LTIxMjlkNjgwOWU2ZSIsInN1YiI6IkFkbWluIiwicm9sZSI6IkFkbWluIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAwLyIsImF1ZCI6IjQxNGUxOTI3YTM4ODRmNjhhYmM3OWY3MjgzODM3ZmQxIiwiZXhwIjoxNTEwMzMxOTQwLCJuYmYiOjE1MTAyNDU1NDB9.CH13HJvzFDDUWURurJFN16orhn8VZQdEJEeo2gaf3mg\nContent-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1bmlxdWVfbmFtZSI6IjA0Zjc0MDdhLTJkY2YtNGRjMC1iZjc2LTIxMjlkNjgwOWU2ZSIsInN1YiI6IkFkbWluIiwicm9sZSI6IkFkbWluIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAwLyIsImF1ZCI6IjQxNGUxOTI3YTM4ODRmNjhhYmM3OWY3MjgzODM3ZmQxIiwiZXhwIjoxNTEwMzMxOTQwLCJuYmYiOjE1MTAyNDU1NDB9.CH13HJvzFDDUWURurJFN16orhn8VZQdEJEeo2gaf3mg",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "caremesurvey.azurewebsites.net/api/SurveyResponses",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "SurveyId",
+					"value": "3045b14f-74bc-4c93-99b7-c430660c6189",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "UserId",
+					"value": "57aeef8f-3140-4295-87eb-8f304cd4cfe6",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "StudyGroupId",
+					"value": "3",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "SurveyResponseReceivedTime",
+					"value": "9-11-2017",
+					"description": ""
+				},
+				{
+					"key": "UserResponseText",
+					"value": "{\n   \"data\": [\n      {\n         \"QuestionNumber\": 1,\n         \"AnswerValue\": 7,\n         \"AnswerText\": \"\"\n      },\n      {\n         \"QuestionNumber\": 2,\n         \"AnswerValue\": 7,\n         \"AnswerText\": \"\"\n      },\n      {\n         \"QuestionNumber\": 3,\n         \"AnswerValue\": 7,\n         \"AnswerText\": \"\"\n      },\n      {\n         \"QuestionNumber\": 4,\n         \"AnswerValue\": 5,\n         \"AnswerText\": \"\"\n      },\n      {\n         \"QuestionNumber\": 5,\n         \"AnswerValue\": 5,\n         \"AnswerText\": \"\"\n      },\n      {\n         \"QuestionNumber\": 6,\n         \"AnswerValue\": 5,\n         \"AnswerText\": \"\"\n      },\n      {\n         \"QuestionNumber\": 7,\n         \"AnswerValue\": 0,\n         \"AnswerText\": \"\"\n      },\n      {\n         \"QuestionNumber\": 8,\n         \"AnswerValue\": 4,\n         \"AnswerText\": \"\"\n      },\n      {\n         \"QuestionNumber\": 9,\n         \"AnswerValue\": 7,\n         \"AnswerText\": \"\"\n      },\n      {\n         \"QuestionNumber\": 10,\n         \"AnswerValue\": 7,\n         \"AnswerText\": \"\"\n      },\n      {\n         \"QuestionNumber\": 11,\n         \"AnswerValue\": 7,\n         \"AnswerText\": \"\"\n      },\n      {\n         \"QuestionNumber\": 12,\n         \"AnswerValue\": 7,\n         \"AnswerText\": \"\"\n      },\n      {\n         \"QuestionNumber\": 13,\n         \"AnswerValue\": 7,\n         \"AnswerText\": \"\"\n      },\n      {\n         \"QuestionNumber\": 14,\n         \"AnswerValue\": 7,\n         \"AnswerText\": \"\"\n      },\n      {\n         \"QuestionNumber\": 15,\n         \"AnswerValue\": 0,\n         \"AnswerText\": \"\"\n      },\n      {\n         \"QuestionNumber\": 16,\n         \"AnswerValue\": 7,\n         \"AnswerText\": \"\"\n      },\n      {\n         \"QuestionNumber\": 17,\n         \"AnswerValue\": 7,\n         \"AnswerText\": \"\"\n      },\n      {\n         \"QuestionNumber\": 18,\n         \"AnswerValue\": 7,\n         \"AnswerText\": \"\"\n      },\n      {\n         \"QuestionNumber\": 19,\n         \"AnswerValue\": 0,\n         \"AnswerText\": \"\"\n      },\n      {\n         \"QuestionNumber\": 20,\n         \"AnswerValue\": 0,\n         \"AnswerText\": \"\"\n      },\n      {\n         \"QuestionNumber\": 21,\n         \"AnswerValue\": 4,\n         \"AnswerText\": \"\"\n      },\n      {\n         \"QuestionNumber\": 22,\n         \"AnswerValue\": 4,\n         \"AnswerText\": \"\"\n      },\n      {\n         \"QuestionNumber\": 23,\n         \"AnswerValue\": 4,\n         \"AnswerText\": \"\"\n      },\n      {\n         \"QuestionNumber\": 24,\n         \"AnswerValue\": 4,\n         \"AnswerText\": \"\"\n      },\n      {\n         \"QuestionNumber\": 25,\n         \"AnswerValue\": 4,\n         \"AnswerText\": \"\"\n      },\n      {\n         \"QuestionNumber\": 26,\n         \"AnswerValue\": 4,\n         \"AnswerText\": \"\"\n      },\n      {\n         \"QuestionNumber\": 27,\n         \"AnswerValue\": 4,\n         \"AnswerText\": \"\"\n      },\n      {\n         \"QuestionNumber\": 28,\n         \"AnswerValue\": 4,\n         \"AnswerText\": \"\"\n      },\n      {\n         \"QuestionNumber\": 29,\n         \"AnswerValue\": 4,\n         \"AnswerText\": \"\"\n      },\n      {\n         \"QuestionNumber\": 30,\n         \"AnswerValue\": 4,\n         \"AnswerText\": \"\"\n      },\n      {\n         \"QuestionNumber\": 31,\n         \"AnswerValue\": 7,\n         \"AnswerText\": \"\"\n      },\n      {\n         \"QuestionNumber\": 32,\n         \"AnswerValue\": 8,\n         \"AnswerText\": \"\"\n      },\n      {\n         \"QuestionNumber\": 33,\n         \"AnswerValue\": 7,\n         \"AnswerText\": \"\"\n      }\n   ]\n}",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1510274721724,
+			"name": "PostResponse",
+			"description": "",
+			"collectionId": "62f6bba9-1ce9-e8de-34fc-a479f963dba3",
+			"responses": []
+		},
+		{
+			"id": "9483bb4d-7fd8-7e34-b434-69fd4e51676b",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1bmlxdWVfbmFtZSI6ImMzNDFjNzI2LTJjODctNDNhYi05NTA1LWJlOTFkMmMwYzhkZiIsInN1YiI6IkFkbWluIiwicm9sZSI6IkFkbWluIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAwLyIsImF1ZCI6IjQxNGUxOTI3YTM4ODRmNjhhYmM3OWY3MjgzODM3ZmQxIiwiZXhwIjoxNTEwMjg1MTk2LCJuYmYiOjE1MTAxOTg3OTZ9.a_O_SRRzAx0Kn3sKtTkt918LqGn9QdY6YxW73j9rGFA\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1bmlxdWVfbmFtZSI6ImMzNDFjNzI2LTJjODctNDNhYi05NTA1LWJlOTFkMmMwYzhkZiIsInN1YiI6IkFkbWluIiwicm9sZSI6IkFkbWluIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAwLyIsImF1ZCI6IjQxNGUxOTI3YTM4ODRmNjhhYmM3OWY3MjgzODM3ZmQxIiwiZXhwIjoxNTEwMjg1MTk2LCJuYmYiOjE1MTAxOTg3OTZ9.a_O_SRRzAx0Kn3sKtTkt918LqGn9QdY6YxW73j9rGFA",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "caremesurvey.azurewebsites.net/api/StudyGroups",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1510272290402,
+			"name": "Get Study Groups",
+			"description": "",
+			"collectionId": "62f6bba9-1ce9-e8de-34fc-a479f963dba3",
+			"responses": []
+		},
+		{
+			"id": "c1d0315d-7fb4-cf3b-5bf8-fb0fa9362ec1",
+			"headers": "",
+			"headerData": [],
+			"url": "caremesurvey.azurewebsites.net/api/SurveyResponses?studyGroupId=1",
+			"queryParams": [
+				{
+					"key": "studyGroupId",
+					"value": "1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1510272323200,
+			"name": "Get Responses",
+			"description": "",
+			"collectionId": "62f6bba9-1ce9-e8de-34fc-a479f963dba3",
+			"responses": []
+		},
+		{
+			"id": "c219f98b-4b65-86d9-8ba4-238d5a498898",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://caremesurvey.azurewebsites.net/oauth2/token",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "grant_type",
+					"value": "password",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "username",
+					"value": "Admin",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "Admin@6010",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1510243463791,
+			"name": "Login",
+			"description": "",
+			"collectionId": "62f6bba9-1ce9-e8de-34fc-a479f963dba3",
+			"responses": []
+		},
+		{
+			"id": "c55c6981-90ec-d94a-58ae-6682e3a242c4",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1bmlxdWVfbmFtZSI6IjA0Zjc0MDdhLTJkY2YtNGRjMC1iZjc2LTIxMjlkNjgwOWU2ZSIsInN1YiI6IkFkbWluIiwicm9sZSI6IkFkbWluIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAwLyIsImF1ZCI6IjQxNGUxOTI3YTM4ODRmNjhhYmM3OWY3MjgzODM3ZmQxIiwiZXhwIjoxNTEwMzMwMDUxLCJuYmYiOjE1MTAyNDM2NTF9.A8xS3QdyE17IEup9Gs9w14xOsxUURoPPnGWlsedcXcM\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1bmlxdWVfbmFtZSI6IjA0Zjc0MDdhLTJkY2YtNGRjMC1iZjc2LTIxMjlkNjgwOWU2ZSIsInN1YiI6IkFkbWluIiwicm9sZSI6IkFkbWluIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAwLyIsImF1ZCI6IjQxNGUxOTI3YTM4ODRmNjhhYmM3OWY3MjgzODM3ZmQxIiwiZXhwIjoxNTEwMzMwMDUxLCJuYmYiOjE1MTAyNDM2NTF9.A8xS3QdyE17IEup9Gs9w14xOsxUURoPPnGWlsedcXcM",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://caremesurvey.azurewebsites.net/api/Users",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "62f6bba9-1ce9-e8de-34fc-a479f963dba3",
+			"data": null,
+			"dataMode": "params",
+			"name": "GetUsers",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1510244192203,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "ea9d73ee-04ac-4f98-5159-1941db36cbce",
+			"headers": "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1bmlxdWVfbmFtZSI6ImMzNDFjNzI2LTJjODctNDNhYi05NTA1LWJlOTFkMmMwYzhkZiIsInN1YiI6IkFkbWluIiwicm9sZSI6IkFkbWluIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAwLyIsImF1ZCI6IjQxNGUxOTI3YTM4ODRmNjhhYmM3OWY3MjgzODM3ZmQxIiwiZXhwIjoxNTEwMjg1MTk2LCJuYmYiOjE1MTAxOTg3OTZ9.a_O_SRRzAx0Kn3sKtTkt918LqGn9QdY6YxW73j9rGFA\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1bmlxdWVfbmFtZSI6ImMzNDFjNzI2LTJjODctNDNhYi05NTA1LWJlOTFkMmMwYzhkZiIsInN1YiI6IkFkbWluIiwicm9sZSI6IkFkbWluIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAwLyIsImF1ZCI6IjQxNGUxOTI3YTM4ODRmNjhhYmM3OWY3MjgzODM3ZmQxIiwiZXhwIjoxNTEwMjg1MTk2LCJuYmYiOjE1MTAxOTg3OTZ9.a_O_SRRzAx0Kn3sKtTkt918LqGn9QdY6YxW73j9rGFA",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://caremesurvey.azurewebsites.net/api/Surveys",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1510244081182,
+			"name": "Get Surveys",
+			"description": "",
+			"collectionId": "62f6bba9-1ce9-e8de-34fc-a479f963dba3",
+			"responses": []
+		},
+		{
+			"id": "ef1c9ebc-fc24-bb7c-2330-f52c29acddf3",
+			"headers": "Content-Type: application/x-www-form-urlencoded\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1bmlxdWVfbmFtZSI6ImMzNDFjNzI2LTJjODctNDNhYi05NTA1LWJlOTFkMmMwYzhkZiIsInN1YiI6IkFkbWluIiwicm9sZSI6IkFkbWluIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAwLyIsImF1ZCI6IjQxNGUxOTI3YTM4ODRmNjhhYmM3OWY3MjgzODM3ZmQxIiwiZXhwIjoxNTEwMjg1MTk2LCJuYmYiOjE1MTAxOTg3OTZ9.a_O_SRRzAx0Kn3sKtTkt918LqGn9QdY6YxW73j9rGFA\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1bmlxdWVfbmFtZSI6ImMzNDFjNzI2LTJjODctNDNhYi05NTA1LWJlOTFkMmMwYzhkZiIsInN1YiI6IkFkbWluIiwicm9sZSI6IkFkbWluIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MDAwLyIsImF1ZCI6IjQxNGUxOTI3YTM4ODRmNjhhYmM3OWY3MjgzODM3ZmQxIiwiZXhwIjoxNTEwMjg1MTk2LCJuYmYiOjE1MTAxOTg3OTZ9.a_O_SRRzAx0Kn3sKtTkt918LqGn9QdY6YxW73j9rGFA",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "caremesurvey.azurewebsites.net/api/GenerateSurvey",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "studyGroupId",
+					"value": "2",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1510272273530,
+			"name": "GenerateSurvey",
+			"description": "",
+			"collectionId": "62f6bba9-1ce9-e8de-34fc-a479f963dba3",
+			"responses": []
+		}
+	]
+}
